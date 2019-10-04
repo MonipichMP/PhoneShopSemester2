@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#254F6E"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtViewTitle1"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Welcome to" />
+
+    <TextView
+        android:id="@+id/txtViewTitle2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="My PhoneShop" />
+    <View
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="#00A9DE" />
+    
+    <ImageView
+        android:id="@+id/imgSplashScreen"
+        android:layout_marginTop="50dp"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/splash_screen_img"
+        />
+
+</LinearLayout>
